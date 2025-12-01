@@ -12,11 +12,12 @@ import ClientOnboardingPage from "@/pages/clients/ClientOnboardingPage";
 import RequestsPage from "@/pages/requests/RequestsPage";
 import RequestDetailsPage from "@/pages/request-details/RequestDetailsPage";
 import RulesPage from "@/pages/rules/RulesPage";
-import LogsPage from "@/pages/logs";
+
 import DeveloperPortalPage from "@/pages/developer/DeveloperPortalPage";
 import WidgetPage from "@/pages/widget/WidgetPage";
 import SettingsPage from "@/pages/settings/SettingsPage";
 import { useAppStore } from "@/store/useAppStore";
+import LogsPage from "@/pages/logs";
 
 export function AppRoutes() {
   const isAuthenticated = Boolean(useAppStore((state) => state.user));
